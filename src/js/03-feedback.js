@@ -23,10 +23,10 @@ const sendData = e => {
 formEl.addEventListener('input', throttle(onForm, 500));
 formEl.addEventListener('submit', sendData);
 
-if (savedForm.email) {
-  imputEmailEl.value = savedForm.email;
-  formData.email = savedForm.email;
-}
+// if (savedForm.email) {
+//   imputEmailEl.value = savedForm.email;
+//   formData.email = savedForm.email;
+// }
 if (savedForm.message) {
   textareaEl.value = savedForm.message;
   formData.message = savedForm.message;
